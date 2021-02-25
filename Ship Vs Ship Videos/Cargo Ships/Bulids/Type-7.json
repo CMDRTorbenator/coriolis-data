@@ -1,0 +1,223 @@
+{
+  "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+  "name": "T-7 trade Bulid",
+  "ship": "Type-7 Transporter",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "https://coriolis.io/outfit/type_7_transport?code=A0pftiFflidisdf5----04---050505040404400i0100.Iw18eQ%3D%3D.Aw18eQ%3D%3D.&bn=T-7%20trade%20Bulid",
+      "code": "A0pftiFflidisdf5----04---050505040404400i0100.Iw18eQ==.Aw18eQ==.",
+      "shipId": "type_7_transport"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 1
+      },
+      "powerPlant": {
+        "class": 5,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1
+      },
+      "thrusters": {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "frameShiftDrive": {
+        "class": 5,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1
+      },
+      "lifeSupport": {
+        "class": 4,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "powerDistributor": {
+        "class": 4,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "sensors": {
+        "class": 3,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "fuelTank": {
+        "class": 5,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1
+      }
+    },
+    "hardpoints": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "utility": [
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      },
+      null,
+      null,
+      null
+    ],
+    "internal": [
+      {
+        "class": 6,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 6,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 6,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 3,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Generator"
+      },
+      {
+        "class": 3,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Auto Field-Maintenance Unit"
+      },
+      {
+        "class": 2,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 1,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      }
+    ]
+  },
+  "stats": {
+    "class": 3,
+    "hullCost": 16780510,
+    "speed": 180,
+    "heatCapacity": 226,
+    "boost": 300,
+    "boostEnergy": 10,
+    "baseShieldStrength": 155,
+    "baseArmour": 340,
+    "hardness": 54,
+    "hullMass": 350,
+    "masslock": 10,
+    "pipSpeed": 0.17,
+    "pitch": 22,
+    "roll": 60,
+    "yaw": 22,
+    "crew": 1,
+    "reserveFuelCapacity": 0.52,
+    "moduleCostMultiplier": 0.85,
+    "fuelCapacity": 32,
+    "cargoCapacity": 294,
+    "passengerCapacity": 0,
+    "ladenMass": 732.5,
+    "armour": 612,
+    "shield": 133.55,
+    "shieldCells": 0,
+    "totalCost": 27354793.5,
+    "unladenMass": 406.5,
+    "totalDpe": 0,
+    "totalAbsDpe": 0,
+    "totalExplDpe": 0,
+    "totalKinDpe": 0,
+    "totalThermDpe": 0,
+    "totalDps": 0,
+    "totalAbsDps": 0,
+    "totalExplDps": 0,
+    "totalKinDps": 0,
+    "totalThermDps": 0,
+    "totalSDps": 0,
+    "totalAbsSDps": 0,
+    "totalExplSDps": 0,
+    "totalKinSDps": 0,
+    "totalThermSDps": 0,
+    "totalEps": 0,
+    "totalHps": 0,
+    "shieldExplRes": 0.5,
+    "shieldKinRes": 0.4,
+    "shieldThermRes": -0.2,
+    "hullExplRes": -0.4,
+    "hullKinRes": -0.2,
+    "hullThermRes": 0,
+    "powerAvailable": 20.4,
+    "powerRetracted": 12.71,
+    "powerDeployed": 12.71,
+    "unladenRange": 29.89,
+    "fullTankRange": 28.05,
+    "ladenRange": 16.8,
+    "unladenFastestRange": 194.05,
+    "ladenFastestRange": 114.63,
+    "maxJumpCount": 7,
+    "modulearmour": 0,
+    "moduleprotection": 0,
+    "hullCausRes": 0,
+    "topSpeed": 186.98,
+    "topBoost": 311.63,
+    "topPitch": 22.85,
+    "topRoll": 62.33,
+    "topYaw": 22.85
+  }
+}
